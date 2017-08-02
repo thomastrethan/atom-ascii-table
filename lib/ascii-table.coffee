@@ -22,7 +22,6 @@ module.exports = AsciiTable =
     @subscriptions.add atom.config.onDidChange 'ascii-table.showExtended', ({newValue, oldValue}) =>
       atom.workspace.getPaneItems().forEach (item) ->
         if item instanceof AsciiTableView
-          console.log item
           item.render()
 
     @subscriptions.add new Disposable( () =>
