@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle ASCII Table'
+      'command': 'ascii-table:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ASCII Table'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'ascii-table:toggle'
+        }
+      ]
+    ]
+  }
+]

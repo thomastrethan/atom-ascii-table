@@ -1,0 +1,21 @@
+{
+  "name": "ascii-table",
+  "main": "./lib/ascii-table",
+  "version": "0.1.0",
+  "description": "Display ASCII Table with character codes.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ascii-table:toggle"
+  },
+  "repository": "https://github.com/thomastrethan/atom-ascii-table",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "deserializers": {
+    "ascii-table/AsciiTableView": "deserializeAsciiTableView"
+  }
+}
