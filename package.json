@@ -1,10 +1,9 @@
 {
   "name": "ascii-table",
   "main": "./lib/ascii-table",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Display ASCII Table with character codes.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "ascii-table:toggle"
   },
@@ -13,8 +12,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "deserializers": {
     "ascii-table/AsciiTableView": "deserializeAsciiTableView"
   }
