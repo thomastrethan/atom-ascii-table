@@ -8,12 +8,13 @@ class AsciiTableView
       'NAK', 'SYN', 'ETB', 'CAN', 'EM', 'SUB', 'ESC', 'FS', 'GS', 'RS', 'US', 'SPC'
     ]
     @chars[127] = 'DEL'
-    @render()
-
-  render: ->
     @element = document.createElement('div')
     @element.classList.add('ascii-table')
+    @render();
 
+  render: ->
+    console.log "AsciiTableRender"
+    @element.removeChild(@element.firstChild) while @element.firstChild
     to = if atom.config.get('ascii-table.showExtended') then 255 else 127
     for ascii in [0..to]
       if ascii % 64 == 0

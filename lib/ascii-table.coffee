@@ -36,5 +36,5 @@ module.exports = AsciiTable =
   toggle: ->
     atom.workspace.toggle @URI
 
-  deserializeAsciiTableView: (serialized) ->
+  deserializeAsciiTableView: (state) ->
     new AsciiTableView(@URI)

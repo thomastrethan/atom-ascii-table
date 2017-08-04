@@ -1,5 +1,4 @@
 # ascii-table package
 
-Display ASCII table in sidebar.
-
-![Screenshot](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Display ASCII table with decimal and hex codes in the sidebar.
+Optionally display extended ASCII table (codes 128 - 255).
